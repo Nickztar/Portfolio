@@ -1,14 +1,15 @@
+import PublicLayout from './public_layout.svelte';
 import Mainer from './Mainer.svelte';
-import Heading from './Heading.svelte';
 
 const routes = [{
         name: '/',
+        layout: PublicLayout,
         component: Mainer
-    },
+    }/* ,
     {
         name: 'about',
         component: Heading
-    }
+    } */
     /*
     {
         name: 'contact',

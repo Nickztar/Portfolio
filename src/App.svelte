@@ -1,10 +1,6 @@
 <script>
     import { Router } from 'svelte-router-spa'
-    import { routes } from './routes'
+    import { routes } from './routes.js'
 </script>
 
 <Router {routes}/>
-
-<style>
-    /* your styles go here */
-</style>

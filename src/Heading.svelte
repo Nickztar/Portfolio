@@ -1,5 +1,4 @@
 <script>
-
 	import Fluid from "svelte-fluid-header";
 	let toggleDrawer;
 	function handleBurger(){
